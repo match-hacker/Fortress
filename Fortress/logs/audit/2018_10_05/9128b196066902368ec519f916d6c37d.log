@@ -1,0 +1,548 @@
+1538730192.121857 openat(AT_FDCWD, "/home/lfm/.ssh/known_hosts", O_RDONLY) = 4
+1538730192.122498 fstat(4, {st_mode=S_IFREG|0644, st_size=444, ...}) = 0
+1538730192.123043 read(4, "|1|F1ghNoizIAD2a0IwwzrBpaBpjoY=|"..., 4096) = 444
+1538730192.123588 read(4, "", 4096)     = 0
+1538730192.123992 close(4)              = 0
+1538730192.124352 openat(AT_FDCWD, "/home/lfm/.ssh/known_hosts2", O_RDONLY) = -1 ENOENT (No such file or directory)
+1538730192.124705 openat(AT_FDCWD, "/etc/ssh/ssh_known_hosts", O_RDONLY) = -1 ENOENT (No such file or directory)
+1538730192.125136 openat(AT_FDCWD, "/etc/ssh/ssh_known_hosts2", O_RDONLY) = -1 ENOENT (No such file or directory)
+1538730192.125421 openat(AT_FDCWD, "/home/lfm/.ssh/known_hosts", O_WRONLY|O_CREAT|O_APPEND, 0666) = 4
+1538730192.125767 lseek(4, 0, SEEK_END) = 444
+1538730192.126066 getpid()              = 66491
+1538730192.126464 fstat(4, {st_mode=S_IFREG|0644, st_size=444, ...}) = 0
+1538730192.126784 write(4, "|1|9WoP0X70jSS4BiG/r7ZIm/s+K0Y=|"..., 222) = 222
+1538730192.127028 close(4)              = 0
+1538730192.127262 write(2, "Warning: Permanently added '192."..., 82) = 82
+1538730192.150552 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64822, tv_nsec=409601689}) = 0
+1538730192.151254 write(3, "\0\0\0\f\n\25\0\0\0\0\0\0\0\0\0\0", 16) = 16
+1538730192.151635 getpid()              = 66491
+1538730192.151669 write(3, "\221\30\26\31\316\346\224?/\264\326\25\20s\212\21\334\32]\3244\341\301\350n\325B}p\365)o"..., 44) = 44
+1538730192.151968 select(4, [3], NULL, NULL, NULL) = 1 (in [3])
+1538730192.194926 read(3, "\344\303\31\177\334\3004\246\331/\345M\303\347A\33R\256\361!\vF\227\0\203\212\353\372Q\0-\312"..., 8192) = 44
+1538730192.195361 getpid()              = 66491
+1538730192.195564 write(3, ")[\23\\\251\304\265b\256\3203\274b\1\267\27\224\26\377\262cV\356${-\241\233\277lv\367"..., 60) = 60
+1538730192.196013 select(4, [3], NULL, NULL, NULL) = 1 (in [3])
+1538730192.196825 read(3, "\233\271\360mM\201W\17\264\315'\374\343b<?z/H\2120\303wjq\273zF\360\247\210\303"..., 8192) = 52
+1538730192.197144 stat("/home/lfm/.ssh/id_rsa", 0x7ffd5bc85860) = -1 ENOENT (No such file or directory)
+1538730192.197524 stat("/home/lfm/.ssh/id_dsa", 0x7ffd5bc85860) = -1 ENOENT (No such file or directory)
+1538730192.197903 stat("/home/lfm/.ssh/id_ecdsa", 0x7ffd5bc85860) = -1 ENOENT (No such file or directory)
+1538730192.198284 stat("/home/lfm/.ssh/id_ed25519", 0x7ffd5bc85860) = -1 ENOENT (No such file or directory)
+1538730192.198621 openat(AT_FDCWD, "/dev/tty", O_RDWR) = 4
+1538730192.199008 close(4)              = 0
+1538730192.199396 openat(AT_FDCWD, "/dev/tty", O_RDWR) = 4
+1538730192.199716 ioctl(4, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+1538730192.200052 ioctl(4, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+1538730192.200299 ioctl(4, SNDCTL_TMR_CONTINUE or TCSETSF, {B38400 opost isig icanon -echo ...}) = 0
+1538730192.200345 ioctl(4, TCGETS, {B38400 opost isig icanon -echo ...}) = 0
+1538730192.200635 rt_sigaction(SIGALRM, {sa_handler=0x5578036cdb50, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1538730192.200979 rt_sigaction(SIGHUP, {sa_handler=0x5578036cdb50, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1538730192.201296 rt_sigaction(SIGINT, {sa_handler=0x5578036cdb50, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1538730192.201567 rt_sigaction(SIGPIPE, {sa_handler=0x5578036cdb50, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, 8) = 0
+1538730192.201768 rt_sigaction(SIGQUIT, {sa_handler=0x5578036cdb50, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1538730192.201916 rt_sigaction(SIGTERM, {sa_handler=0x5578036cdb50, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1538730192.202110 rt_sigaction(SIGTSTP, {sa_handler=0x5578036cdb50, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1538730192.202347 rt_sigaction(SIGTTIN, {sa_handler=0x5578036cdb50, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1538730192.202514 rt_sigaction(SIGTTOU, {sa_handler=0x5578036cdb50, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1538730192.202622 write(4, "lty@192.168.204.161's password: ", 32) = 32
+1538730192.202697 read(4, "Q", 1)       = 1
+1538730192.202790 read(4, "Q", 1)       = 1
+1538730192.202914 read(4, "q", 1)       = 1
+1538730192.203053 read(4, "\n", 1)      = 1
+1538730192.203171 write(4, "\n", 1)     = 1
+1538730192.203252 ioctl(4, TCGETS, {B38400 opost isig icanon -echo ...}) = 0
+1538730192.203358 ioctl(4, SNDCTL_TMR_CONTINUE or TCSETSF, {B38400 opost isig icanon echo ...}) = 0
+1538730192.203462 ioctl(4, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+1538730192.203566 rt_sigaction(SIGALRM, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.203670 rt_sigaction(SIGHUP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.203773 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.203896 rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.204014 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.204117 rt_sigaction(SIGTERM, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.204219 rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.204322 rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.204425 rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.204528 close(4)              = 0
+1538730192.204635 getpid()              = 66491
+1538730192.204737 write(3, "\255\354\324n\2\2157u\251\274\207U\0374\323wX(\335\337D &\241\305\252.\277\n n\5"..., 84) = 84
+1538730192.205088 select(4, [3], NULL, NULL, NULL) = 1 (in [3])
+1538730192.221168 read(3, "b\0312\260\2576\17\253\304\21642\31\221\217_\7i\16\322\34\\oN\3756_\177", 8192) = 28
+1538730192.221538 dup(0)                = 4
+1538730192.221961 dup(1)                = 5
+1538730192.222274 dup(2)                = 6
+1538730192.222636 ioctl(4, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+1538730192.222968 ioctl(5, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+1538730192.223299 ioctl(6, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+1538730192.223704 fcntl(4, F_SETFD, FD_CLOEXEC) = 0
+1538730192.224070 fcntl(5, F_SETFD, FD_CLOEXEC) = 0
+1538730192.224416 fcntl(6, F_SETFD, FD_CLOEXEC) = 0
+1538730192.224689 getpid()              = 66491
+1538730192.224739 getpid()              = 66491
+1538730192.224759 rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, 8) = 0
+1538730192.224801 rt_sigaction(SIGHUP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.224853 rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, 8) = 0
+1538730192.225052 rt_sigaction(SIGHUP, {sa_handler=0x557803676010, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.225192 rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, 8) = 0
+1538730192.225386 rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.225638 rt_sigaction(SIGINT, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, 8) = 0
+1538730192.225890 rt_sigaction(SIGINT, {sa_handler=0x557803676010, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.226140 rt_sigaction(SIGQUIT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, 8) = 0
+1538730192.226377 rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.226566 rt_sigaction(SIGQUIT, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, 8) = 0
+1538730192.226710 rt_sigaction(SIGQUIT, {sa_handler=0x557803676010, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.227261 rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, 8) = 0
+1538730192.228175 rt_sigaction(SIGTERM, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.228301 rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, 8) = 0
+1538730192.228404 rt_sigaction(SIGTERM, {sa_handler=0x557803676010, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.228517 rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1538730192.228628 rt_sigaction(SIGWINCH, {sa_handler=0x557803676290, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730192.228731 ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+1538730192.228888 ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+1538730192.229000 ioctl(0, SNDCTL_TMR_STOP or TCSETSW, {B38400 -opost -isig -icanon -echo ...}) = 0
+1538730192.229076 ioctl(0, TCGETS, {B38400 -opost -isig -icanon -echo ...}) = 0
+1538730192.229180 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64822, tv_nsec=488126124}) = 0
+1538730192.229297 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64822, tv_nsec=488237823}) = 0
+1538730192.229406 select(7, [3], [3], NULL, NULL) = 1 (out [3])
+1538730192.229528 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64822, tv_nsec=488467788}) = 0
+1538730192.229636 write(3, "TCx\314\270n\243[\265\"+\336B\22\343}\311\224\265\220J-\232\215W\32^\320\224r\251\351"..., 112) = 112
+1538730192.229854 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64822, tv_nsec=488801736}) = 0
+1538730192.229992 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64822, tv_nsec=488936254}) = 0
+1538730192.230106 select(7, [3], [], NULL, NULL) = 1 (in [3])
+1538730193.425410 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=684351598}) = 0
+1538730193.425652 read(3, "\324+R\352\261u\262\232\177>s\321\252f\21'\256Kf\227\326\334\342I@\343\242\275O\320\370\366"..., 8192) = 500
+1538730193.426045 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=685052753}) = 0
+1538730193.426449 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=685452608}) = 0
+1538730193.428427 select(7, [3], [], NULL, NULL) = 1 (in [3])
+1538730193.468416 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=727462495}) = 0
+1538730193.468864 read(3, "\25\301Y@\37lA\0\302\241E2\4&\25Es\244Z\314\35\346\316M\305\233\243\277\200\353\304\n"..., 8192) = 44
+1538730193.469302 getsockopt(3, SOL_TCP, TCP_NODELAY, [0], [4]) = 0
+1538730193.469832 setsockopt(3, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+1538730193.470294 getsockname(3, {sa_family=AF_INET, sin_port=htons(54904), sin_addr=inet_addr("192.168.204.162")}, [128->16]) = 0
+1538730193.470700 setsockopt(3, SOL_IP, IP_TOS, [16], 4) = 0
+1538730193.471115 ioctl(0, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+1538730193.471569 getpid()              = 66491
+1538730193.471940 getpid()              = 66491
+1538730193.472355 getpid()              = 66491
+1538730193.472635 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=731653640}) = 0
+1538730193.473046 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=732063251}) = 0
+1538730193.473520 select(7, [3], [3], NULL, NULL) = 1 (out [3])
+1538730193.473957 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=732964973}) = 0
+1538730193.474352 write(3, "+\243\1\32\211\301\3664P\323\301\253\233\353XF\361\17W\27\306v\267\227\2027\255\r*\330\310M"..., 460) = 460
+1538730193.474766 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=733770306}) = 0
+1538730193.475105 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=734109552}) = 0
+1538730193.475453 select(7, [3], [], NULL, NULL) = 1 (in [3])
+1538730193.520498 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=779597209}) = 0
+1538730193.521216 read(3, "\337\300\"\n\216;%H\301\"gA6\300oW\0\305\256\315o\17\32GB8\321;\3\304_z"..., 8192) = 108
+1538730193.521933 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=781016980}) = 0
+1538730193.524473 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=783842480}) = 0
+1538730193.525455 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730193.539492 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=798569696}) = 0
+1538730193.540474 read(3, "\241\266+\t\216\341\257\222\274R\245\240\326m\371bZ\256\233-\331NZ\276A\342\5\236\322\256\340Z"..., 8192) = 532
+1538730193.541238 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=800383093}) = 0
+1538730193.541951 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=801028556}) = 0
+1538730193.542640 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730193.543376 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=802534431}) = 0
+1538730193.544359 write(5, "Welcome to Ubuntu 18.04.1 LTS (G"..., 494) = 494
+1538730193.544906 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=803973563}) = 0
+1538730193.545626 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64823, tv_nsec=804692162}) = 0
+1538730193.546316 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730193.818860 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64824, tv_nsec=77942860}) = 0
+1538730193.819526 read(3, "i\10\326%\37SD\345\4\211#\34\20\367\202t\0075\211\267u\322\237v\300\rw\214\".6)"..., 8192) = 108
+1538730193.820141 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64824, tv_nsec=79277923}) = 0
+1538730193.820485 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64824, tv_nsec=79450920}) = 0
+1538730193.821070 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730193.821780 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64824, tv_nsec=80859331}) = 0
+1538730193.822430 write(5, "To run a command as administrato"..., 70) = 70
+1538730193.823142 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64824, tv_nsec=82221568}) = 0
+1538730193.823724 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64824, tv_nsec=82782949}) = 0
+1538730193.824358 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730193.835457 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64824, tv_nsec=94391424}) = 0
+1538730193.835917 read(3, "\353\1\304\17D\200m\344\n03{\342\256\263\326c\337\324\344\364J\245\355_\3Y\377\303\35\354^"..., 8192) = 76
+1538730193.836170 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64824, tv_nsec=95101229}) = 0
+1538730193.836229 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64824, tv_nsec=95156366}) = 0
+1538730193.836286 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730193.836371 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64824, tv_nsec=95298686}) = 0
+1538730193.836423 write(5, "\r\nSee \"man sudo_root\" for detail"..., 38) = 38
+1538730193.836859 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64824, tv_nsec=95789473}) = 0
+1538730193.836921 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64824, tv_nsec=95848634}) = 0
+1538730193.836974 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730195.109495 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64825, tv_nsec=368485596}) = 0
+1538730195.109800 read(3, "P\207@\363gP1\306to\364\03009>\320\rpX$\231e\v\341\227\224\312l\361e\367\244"..., 8192) = 100
+1538730195.110134 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64825, tv_nsec=369092763}) = 0
+1538730195.110415 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64825, tv_nsec=369404671}) = 0
+1538730195.110722 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730195.111058 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64825, tv_nsec=370085459}) = 0
+1538730195.111507 write(5, "\33]0;lty@cyp-ubuntu: ~\7\33[01;32mlt"..., 66) = 66
+1538730195.112006 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64825, tv_nsec=371044220}) = 0
+1538730195.112390 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64825, tv_nsec=371416054}) = 0
+1538730195.112832 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730261.088744 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=347782779}) = 0
+1538730261.089243 read(4, "l", 16384)   = 1
+1538730261.090019 getpid()              = 66491
+1538730261.090586 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=349623934}) = 0
+1538730261.091122 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=350280469}) = 0
+1538730261.091943 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730261.092887 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=352003436}) = 0
+1538730261.093665 write(3, "\3K\331\22(\243\2437\245\271(f&\v\321@\20\233\300\324\221\364#p\202\273\264\324V\276\5\34"..., 36) = 36
+1538730261.094622 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=353722949}) = 0
+1538730261.095356 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=355210720}) = 0
+1538730261.096881 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730261.097676 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=356780257}) = 0
+1538730261.098458 read(3, "'\324\31\266\7\2530E\32V\212k\32*]\341b\332r?h\365\373\224\275\366\33`\210\240\250\271"..., 8192) = 36
+1538730261.099302 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=358853081}) = 0
+1538730261.100857 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=359966995}) = 0
+1538730261.101626 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730261.102444 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=361546606}) = 0
+1538730261.103075 write(5, "l", 1)      = 1
+1538730261.103756 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=362806797}) = 0
+1538730261.104305 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=363358907}) = 0
+1538730261.104861 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730261.269188 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=528305863}) = 0
+1538730261.269997 read(4, "f", 16384)   = 1
+1538730261.270749 getpid()              = 66491
+1538730261.271521 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=530777006}) = 0
+1538730261.273385 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=532501580}) = 0
+1538730261.274212 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730261.275135 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=534317706}) = 0
+1538730261.276179 write(3, "\235\22%\246\363\37V\246CN\345\241\375\332\336\203N\221Q\320J\373V\261\10p\345 \222\257\206\337"..., 36) = 36
+1538730261.277254 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=536266932}) = 0
+1538730261.277931 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=537020347}) = 0
+1538730261.278731 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730261.279546 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=538688508}) = 0
+1538730261.280442 read(3, "\351\230wM,\367\0\21m\377z\302ZM\337\t\305T\366\317%e\\\373\301\271\204kH\22\343B"..., 8192) = 36
+1538730261.281242 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=540363441}) = 0
+1538730261.282030 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=541107155}) = 0
+1538730261.282759 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730261.283466 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=542543790}) = 0
+1538730261.284157 write(5, "f", 1)      = 1
+1538730261.284726 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=543772053}) = 0
+1538730261.285321 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64891, tv_nsec=544295326}) = 0
+1538730261.285794 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730261.762159 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64892, tv_nsec=21164531}) = 0
+1538730261.762571 read(4, "\r", 16384)  = 1
+1538730261.762939 getpid()              = 66491
+1538730261.763333 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64892, tv_nsec=22317860}) = 0
+1538730261.763608 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64892, tv_nsec=22612201}) = 0
+1538730261.764007 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730261.764453 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64892, tv_nsec=23562646}) = 0
+1538730261.765123 write(3, "\254\2019\324\26\223\270\254\350\217\206\26\20\224\335\357nb\243U\245\246\230<\220\v\r\313l\265\220\0"..., 36) = 36
+1538730261.765556 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64892, tv_nsec=24570787}) = 0
+1538730261.765911 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64892, tv_nsec=24895553}) = 0
+1538730261.766170 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730261.810358 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64892, tv_nsec=69351384}) = 0
+1538730261.810657 read(3, "\220\273\305\23\355\206\264\37n\330\21(;J~L\2=\251\347\213\26\250\254:\304\330\361l \343\251"..., 8192) = 36
+1538730261.810954 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64892, tv_nsec=69945122}) = 0
+1538730261.811271 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64892, tv_nsec=70250043}) = 0
+1538730261.811557 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730261.811890 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64892, tv_nsec=70874357}) = 0
+1538730261.812201 write(5, "\r\n", 2)   = 2
+1538730261.812583 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64892, tv_nsec=71590401}) = 0
+1538730261.812953 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64892, tv_nsec=71958388}) = 0
+1538730261.813334 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730263.843045 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=102149690}) = 0
+1538730263.843873 read(4, "\3", 16384)  = 1
+1538730263.844691 getpid()              = 66491
+1538730263.845484 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=104601967}) = 0
+1538730263.846334 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=105446813}) = 0
+1538730263.846970 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730263.847781 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=106939258}) = 0
+1538730263.848621 write(3, "\344\243\360\351}\24\3T\304*\375\214x\333\4$r[w\236\326\21\2\210\222\260\273{\v\206\312\r"..., 36) = 36
+1538730263.850031 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=109699340}) = 0
+1538730263.851273 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=110352945}) = 0
+1538730263.852118 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730263.891612 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=150647064}) = 0
+1538730263.891905 read(3, ".\352\312\210H\276(\203\265\35\342\363\357\351\4g\0056\263\366\360p\233\265\34\245\320\233l\242\n\237"..., 8192) = 144
+1538730263.892226 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=151215977}) = 0
+1538730263.892530 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=151522424}) = 0
+1538730263.892903 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730263.893233 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=152209251}) = 0
+1538730263.893505 write(5, "^C\r\n\33]0;lty@cyp-ubuntu: ~\7\33[01;3"..., 70) = 70
+1538730263.893825 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=152801769}) = 0
+1538730263.894055 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=153021494}) = 0
+1538730263.894272 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730264.541063 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=799985429}) = 0
+1538730264.541091 read(4, "l", 16384)   = 1
+1538730264.541123 getpid()              = 66491
+1538730264.541143 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=800062582}) = 0
+1538730264.541163 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=800082013}) = 0
+1538730264.541337 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730264.541671 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=800618338}) = 0
+1538730264.541871 write(3, "d2my\207\250\212\235\233ZmP\31$\345\207\26\240\272\375c\246N\302!\360{\276\364O\307\25"..., 36) = 36
+1538730264.542157 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=801153091}) = 0
+1538730264.542395 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=801370124}) = 0
+1538730264.542617 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730264.543023 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=801965705}) = 0
+1538730264.543212 read(3, "L\\\301(W\0079/;\306b\260h`Oz{%\362&\316\312\351*s\221\363\347\r\354\t\252"..., 8192) = 36
+1538730264.543590 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=802565916}) = 0
+1538730264.543887 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=802829801}) = 0
+1538730264.544086 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730264.544442 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=803440253}) = 0
+1538730264.544788 write(5, "l", 1)      = 1
+1538730264.545151 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=804156351}) = 0
+1538730264.545476 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=804474199}) = 0
+1538730264.545818 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730264.646922 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=905845067}) = 0
+1538730264.646952 read(4, "s", 16384)   = 1
+1538730264.646986 getpid()              = 66491
+1538730264.647009 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=905928953}) = 0
+1538730264.647032 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=905951183}) = 0
+1538730264.647053 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730264.647085 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=906004332}) = 0
+1538730264.647106 write(3, "\4g\361_\347\303\330f\351\314\243C\231\206\252e\350\212~\246\3475A\302U\34\231\327\305\374\34\261"..., 36) = 36
+1538730264.647210 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=906130823}) = 0
+1538730264.647340 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=906266513}) = 0
+1538730264.647403 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730264.648252 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=907247508}) = 0
+1538730264.648549 read(3, "\313\327\374\345\225\244\10T=F\350i\210s\372\34\300\260j\215\233\221~l\266\370\5jU\241\215\351"..., 8192) = 36
+1538730264.648937 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=907938073}) = 0
+1538730264.649237 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=908261074}) = 0
+1538730264.649570 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730264.649840 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=908836215}) = 0
+1538730264.650051 write(5, "s", 1)      = 1
+1538730264.650300 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=909269604}) = 0
+1538730264.650485 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64894, tv_nsec=909459574}) = 0
+1538730264.650648 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730264.812059 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=71057290}) = 0
+1538730264.812469 read(4, "\r", 16384)  = 1
+1538730264.812837 getpid()              = 66491
+1538730264.813174 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=72131032}) = 0
+1538730264.813439 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=72419848}) = 0
+1538730264.813758 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730264.814080 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=73052494}) = 0
+1538730264.814453 write(3, "\213N\3170\216\371|\202+\367\201\231\376\301\301@\345k\17\242\252s\206\372\324BUe\335\270\253\317"..., 36) = 36
+1538730264.814857 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=73842230}) = 0
+1538730264.815172 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=74144775}) = 0
+1538730264.815467 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730264.815780 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=74767915}) = 0
+1538730264.816118 read(3, "1\37\334\343\270\252\352J\373\321f%/Nz\213\264d\"\222\225\242\342\237\tA_\30>z\23\334"..., 8192) = 36
+1538730264.816444 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=75451325}) = 0
+1538730264.816785 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=75792048}) = 0
+1538730264.817019 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730264.817211 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=76160235}) = 0
+1538730264.817375 write(5, "\r\n", 2)   = 2
+1538730264.817618 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=76566901}) = 0
+1538730264.817766 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=76706141}) = 0
+1538730264.817880 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730265.009396 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=268514526}) = 0
+1538730265.010182 read(3, "\213M\350Y\262/a\234\310\351\357O\20\304C\275\0258\v\254F[\250\3\206NI\256\314m\252$"..., 8192) = 320
+1538730265.011009 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=270283390}) = 0
+1538730265.011901 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=271002570}) = 0
+1538730265.012600 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730265.013246 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=272335435}) = 0
+1538730265.013959 write(5, "examples.desktop  \33[0m\33[01;34m\345\205"..., 251) = 251
+1538730265.014804 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=273904146}) = 0
+1538730265.015534 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64895, tv_nsec=274696525}) = 0
+1538730265.016318 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730266.244158 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=503275453}) = 0
+1538730266.244967 read(4, "p", 16384)   = 1
+1538730266.245902 getpid()              = 66491
+1538730266.246697 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=505814363}) = 0
+1538730266.247535 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=506651305}) = 0
+1538730266.248343 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730266.249251 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=508409824}) = 0
+1538730266.250057 write(3, "b\n%\365\256\21\274\271'\f\324-\211$\271\331e\231\305\361&\246\22\0247_\255\303\2403\216\327"..., 36) = 36
+1538730266.250912 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=510018243}) = 0
+1538730266.251894 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=511235490}) = 0
+1538730266.252966 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730266.253856 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=512968682}) = 0
+1538730266.254680 read(3, "\314\321^\26X\333>\24h\255\252!\\k\242\226\334\310Y2\340ki\337\353\252\0o\362F\265|"..., 8192) = 36
+1538730266.255521 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=514632788}) = 0
+1538730266.256306 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=515367657}) = 0
+1538730266.256923 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730266.257815 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=516924774}) = 0
+1538730266.258618 write(5, "p", 1)      = 1
+1538730266.259026 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=517966926}) = 0
+1538730266.259126 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=518061536}) = 0
+1538730266.259463 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730266.402450 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=661563156}) = 0
+1538730266.403285 read(4, "w", 16384)   = 1
+1538730266.404086 getpid()              = 66491
+1538730266.404853 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=663997156}) = 0
+1538730266.405679 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=664768516}) = 0
+1538730266.406284 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730266.406878 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=665957087}) = 0
+1538730266.407512 write(3, "\350\3002)\0235[r\2,\17\0240\345t\355\224\36\314&\3r\211\346\266\260\25\331$\5\373\277"..., 36) = 36
+1538730266.408198 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=667262363}) = 0
+1538730266.408920 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=668004274}) = 0
+1538730266.409552 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730266.410166 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=669267536}) = 0
+1538730266.410473 read(3, "\366G\353\317\374\314\346\277)\315\270\271\351\222'\251\276\345{\237\3\227\4\261e}[&\2664c\301"..., 8192) = 36
+1538730266.410953 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=669896905}) = 0
+1538730266.411083 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=670105511}) = 0
+1538730266.411519 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730266.411940 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=670959819}) = 0
+1538730266.412376 write(5, "w", 1)      = 1
+1538730266.412563 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=671555345}) = 0
+1538730266.412908 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=671916683}) = 0
+1538730266.413271 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730266.678091 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=937150170}) = 0
+1538730266.678614 read(4, "d", 16384)   = 1
+1538730266.679182 getpid()              = 66491
+1538730266.679725 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=938775092}) = 0
+1538730266.680221 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=939572726}) = 0
+1538730266.681936 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730266.682875 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=941965796}) = 0
+1538730266.683471 write(3, "\31\351x\371cMn\201\6^\205\226HK@\316|[\no\tY\353,T\370\233\31\372\360\365\1"..., 36) = 36
+1538730266.684383 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=943420779}) = 0
+1538730266.685015 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=944036388}) = 0
+1538730266.685415 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730266.685822 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=944827960}) = 0
+1538730266.686176 read(3, "\232^\277\361\17\362\340fcaDk\207\327C\241\360'!\350\247Ta\10\311yhz\201\341\2751"..., 8192) = 36
+1538730266.686601 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=945569687}) = 0
+1538730266.686945 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=945952456}) = 0
+1538730266.687358 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730266.687789 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=946796515}) = 0
+1538730266.688167 write(5, "d", 1)      = 1
+1538730266.688644 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=947654536}) = 0
+1538730266.689025 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64896, tv_nsec=948034386}) = 0
+1538730266.689391 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730266.979182 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64897, tv_nsec=238186803}) = 0
+1538730266.979485 read(4, "\r", 16384)  = 1
+1538730266.979866 getpid()              = 66491
+1538730266.980160 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64897, tv_nsec=239136168}) = 0
+1538730266.980393 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64897, tv_nsec=239422685}) = 0
+1538730266.980748 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730266.981081 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64897, tv_nsec=240061040}) = 0
+1538730266.981344 write(3, "|D\360\f)\317\323Y\33\232\310(\202\30\245\2024\350\2026K\216\233\273\274\314\325p\246p\373="..., 36) = 36
+1538730266.981640 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64897, tv_nsec=240593186}) = 0
+1538730266.981873 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64897, tv_nsec=240816154}) = 0
+1538730266.982107 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730266.982398 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64897, tv_nsec=241353579}) = 0
+1538730266.982619 read(3, "5-\246#\261\340\314\252\251fFc\374\302(\235s\251'*\247\334\323K\242\217\244\31`\367\225\r"..., 8192) = 152
+1538730266.982812 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64897, tv_nsec=241753030}) = 0
+1538730266.982930 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64897, tv_nsec=241869907}) = 0
+1538730266.983046 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730266.983207 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64897, tv_nsec=242147174}) = 0
+1538730266.983320 write(5, "\r\n/home/lty\r\n\33]0;lty@cyp-ubuntu:"..., 79) = 79
+1538730266.983526 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64897, tv_nsec=242489912}) = 0
+1538730266.983691 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64897, tv_nsec=242632452}) = 0
+1538730266.983805 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730270.629771 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64900, tv_nsec=888786639}) = 0
+1538730270.630277 read(4, "e", 16384)   = 1
+1538730270.630750 getpid()              = 66491
+1538730270.631136 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64900, tv_nsec=890160329}) = 0
+1538730270.631567 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64900, tv_nsec=890546847}) = 0
+1538730270.631875 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730270.632216 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64900, tv_nsec=891189944}) = 0
+1538730270.632548 write(3, "\314\307\34_\343\364\222\5R\177I\v\240\240\374;\346\10\3769a\334\277\245\342?\251\250A\311\206\231"..., 36) = 36
+1538730270.632926 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64900, tv_nsec=891913316}) = 0
+1538730270.633229 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64900, tv_nsec=892211161}) = 0
+1538730270.633502 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730270.633762 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64900, tv_nsec=892765898}) = 0
+1538730270.634079 read(3, "\243*\336%\223\275v\333M\213\373\332\213\311\262^\254\27\244/\277\232\17\300\235\273\30n\343\350\215\307"..., 8192) = 36
+1538730270.634259 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64900, tv_nsec=893199182}) = 0
+1538730270.634402 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64900, tv_nsec=893341455}) = 0
+1538730270.634540 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730270.634654 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64900, tv_nsec=893592285}) = 0
+1538730270.634847 write(5, "e", 1)      = 1
+1538730270.635069 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64900, tv_nsec=894010593}) = 0
+1538730270.635306 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64900, tv_nsec=894261623}) = 0
+1538730270.635498 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730271.039240 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=298311890}) = 0
+1538730271.040099 read(4, "x", 16384)   = 1
+1538730271.041009 getpid()              = 66491
+1538730271.041774 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=300869427}) = 0
+1538730271.042546 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=301663400}) = 0
+1538730271.043270 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730271.044050 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=303158866}) = 0
+1538730271.044912 write(3, "DS\200\20\26F\0\260\22\361(\30\372\301}\227\222r%R\263F\221Qf\200H~s\363!u"..., 36) = 36
+1538730271.045918 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=305035357}) = 0
+1538730271.046837 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=305947048}) = 0
+1538730271.047711 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730271.048547 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=307640941}) = 0
+1538730271.049248 read(3, "f\335\254('\2152\226DL\3K\216\371\325uULVgIWi\251\266\375\v1|\21Tr"..., 8192) = 36
+1538730271.050107 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=309282806}) = 0
+1538730271.050929 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=310029993}) = 0
+1538730271.051680 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730271.052473 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=311643752}) = 0
+1538730271.053182 write(5, "x", 1)      = 1
+1538730271.053808 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=312860626}) = 0
+1538730271.054349 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=313401211}) = 0
+1538730271.054848 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730271.151039 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=410143659}) = 0
+1538730271.151785 read(4, "i", 16384)   = 1
+1538730271.152586 getpid()              = 66491
+1538730271.153492 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=412593589}) = 0
+1538730271.154239 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=413343830}) = 0
+1538730271.155007 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730271.155802 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=414945010}) = 0
+1538730271.156609 write(3, "\321\215\30\262\300`(\2\240\365\20\7\361@t\200&\340\356\235I\307\24Rt\253\207\232U\t[\\"..., 36) = 36
+1538730271.157558 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=416664242}) = 0
+1538730271.158185 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=417533370}) = 0
+1538730271.159195 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730271.160041 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=419224710}) = 0
+1538730271.160865 read(3, "\321\202\35fn\246\275\274\256\276_\275\264\2178\334 \216a\230\340\223\206\324\235Ds\276\231\361\330+"..., 8192) = 36
+1538730271.162566 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=421692748}) = 0
+1538730271.163184 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=422250083}) = 0
+1538730271.164108 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730271.164221 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=423149389}) = 0
+1538730271.164272 write(5, "i", 1)      = 1
+1538730271.164404 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=423333591}) = 0
+1538730271.164458 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=423383893}) = 0
+1538730271.164768 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730271.302457 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=566824323}) = 0
+1538730271.307975 read(4, "t", 16384)   = 1
+1538730271.308012 getpid()              = 66491
+1538730271.308032 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=566956071}) = 0
+1538730271.308197 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=567139911}) = 0
+1538730271.308402 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730271.308737 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=567696043}) = 0
+1538730271.309135 write(3, "\315>\235\327\364\364pN(\36D\330q\246\361\261\212\273I\2348\213\230\21\353T\200qluv\302"..., 36) = 36
+1538730271.309460 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=568508892}) = 0
+1538730271.309799 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=568757880}) = 0
+1538730271.310032 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730271.310162 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=569103024}) = 0
+1538730271.310269 read(3, "\367\253\34\36Y\337\326C\7z\356\22\243\376\346\316:\v\252%!o\20\33\3461{\324\322%\27\256"..., 8192) = 36
+1538730271.310392 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=569332976}) = 0
+1538730271.310503 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=569443980}) = 0
+1538730271.310614 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730271.310737 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=569677766}) = 0
+1538730271.310848 write(5, "t", 1)      = 1
+1538730271.310966 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=569886303}) = 0
+1538730271.310989 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=569907681}) = 0
+1538730271.311027 select(7, [3 4], [], NULL, NULL) = 1 (in [4])
+1538730271.708558 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=967563697}) = 0
+1538730271.708914 read(4, "\r", 16384)  = 1
+1538730271.709312 getpid()              = 66491
+1538730271.709736 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=968744338}) = 0
+1538730271.710102 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=969091299}) = 0
+1538730271.710437 select(7, [3 4], [3], NULL, NULL) = 1 (out [3])
+1538730271.710766 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=969746313}) = 0
+1538730271.712350 write(3, "\376\252\377-\17BY\370K\3716:\305\235\262\203vS\275\251/_z\317`d6\276Oq\33\33"..., 36) = 36
+1538730271.712800 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=971788580}) = 0
+1538730271.713124 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=972092740}) = 0
+1538730271.713387 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730271.713630 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=972588667}) = 0
+1538730271.713872 read(3, "D\234\240Z\31\34\37\36\2\260\336)\350\254$fS*\353=\270\370\\Cc\371g\273\224\205\222\21"..., 8192) = 80
+1538730271.714139 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=973137136}) = 0
+1538730271.714420 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=973372554}) = 0
+1538730271.714650 select(7, [3 4], [5], NULL, NULL) = 1 (out [5])
+1538730271.714952 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=973951249}) = 0
+1538730271.715177 write(5, "\r\n\346\263\250\351\224\200\r\n", 10) = 10
+1538730271.715381 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=974305118}) = 0
+1538730271.715423 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=974341462}) = 0
+1538730271.715565 select(7, [3 4], [], NULL, NULL) = 1 (in [3])
+1538730271.715787 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=974799144}) = 0
+1538730271.716028 read(3, "j\3\247\212\16,\4oq\23_\356b\317D\251\0+KpB\337\311k\16K\212\221\t\211\310\206"..., 8192) = 176
+1538730271.716222 close(4)              = 0
+1538730271.716388 close(5)              = 0
+1538730271.716554 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=975522435}) = 0
+1538730271.716719 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=975689063}) = 0
+1538730271.716910 ioctl(0, TCGETS, {B38400 -opost -isig -icanon -echo ...}) = 0
+1538730271.717026 ioctl(0, SNDCTL_TMR_STOP or TCSETSW, {B38400 opost isig icanon echo ...}) = 0
+1538730271.717160 ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+1538730271.717305 getpid()              = 66491
+1538730271.717463 close(6)              = 0
+1538730271.717570 select(7, [3], [3], NULL, NULL) = 1 (out [3])
+1538730271.717688 clock_gettime(CLOCK_BOOTTIME, {tv_sec=64901, tv_nsec=976628865}) = 0
+1538730271.717796 write(3, "=\5\221\367\325\234\34\231\315\333P\5YZ`\303\r*\222\265\371J\233\223\2501\344\242\255\223\366\304"..., 36) = 36
+1538730271.718020 rt_sigaction(SIGWINCH, NULL, {sa_handler=0x557803676290, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, 8) = 0
+1538730271.718141 rt_sigaction(SIGWINCH, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f3eec8eff20}, NULL, 8) = 0
+1538730271.718252 getpid()              = 66491
+1538730271.718366 write(3, "\234\371\242%CD\30\3779\204\255u\24\"\313\304\n)\351mRL\240\253\364:\357\\{7:m"..., 60) = 60
+1538730271.718536 ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+1538730271.718695 ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+1538730271.718862 ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+1538730271.719010 write(2, "Connection to 192.168.204.161 cl"..., 39) = 39
+1538730271.719194 close(3)              = 0
+1538730271.719515 exit_group(0)         = ?
+1538730271.720031 +++ exited with 0 +++

@@ -73,9 +73,9 @@ class UserPortal(object):
                                 #start session tracker script 
                                 session_tracker_script = settings.SESSION_TRACKER_SCRIPT 
                                 tracker_obj = subprocess.Popen("%s %s" %(session_tracker_script, md5_str), shell=True, stdout=subprocess.PIPE,stderr=subprocess.PIPE,cwd=settings.BASE_DIR)
-                                time.sleep(15)
+                               # time.sleep(15)
                                 #create session log
-                      #          models.SessionLog.objects.create(user=self.user,bind_host=selected_bindhost, session_tag = md5_str)
+                                models.SessionLog.objects.create(user=self.user,bind_host=selected_bindhost, session_tag = md5_str)
                                 ssh_instance = subprocess.run(login_cmd, shell=True)
                                 print('---------------------------logout--------------------------------')
                                 print("session tracker output", tracker_obj.stdout.read().decode(), tracker_obj.stderr.read().decode() )

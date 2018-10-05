@@ -22,7 +22,7 @@ class AuditLogHandler(object):
             #print(line.split())
             line = line.split()
             try:
-                pid,time_clock,io_call,char = line[0:4]
+                time_clock,io_call,char = line[0:3]
                 if io_call.startswith('read(4'):
                     if char == '"\\177",':#回退
                         char = '[1<-del]'
@@ -76,5 +76,5 @@ class AuditLogHandler(object):
             print(cmd)
         return cmd_list
 if __name__ == "__main__":
-    parser = AuditLogHandler('ssh.log')
+    parser = AuditLogHandler('/home/cyp/Fortress/Fortress/logs/audit/2018_10_05/1a3df755e59ae2290883cade8ce737ca.log')
     parser.parse()

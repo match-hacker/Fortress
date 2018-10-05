@@ -12,7 +12,7 @@ for i in $(seq 1 30);do
             continue
     else
         today=`date    "+%Y_%m_%d"`
-        today_audit_dir="../logs/audit/$today"
+        today_audit_dir="logs/audit/$today"
         echo "today_audit_dir: $today_audit_dir"
         if [ -d $today_audit_dir ]
         then
@@ -20,39 +20,14 @@ for i in $(seq 1 30);do
         else
                 echo "dir not exist"
                 echo "today dir: $today_audit_dir"
-              #  echo QQq |sudo -S mkdir -p $today_audit_dir
+                sudo  mkdir -p $today_audit_dir
         fi;
-	echo $(pwd)
-	echo $(whoami)
+        echo $(pwd)
+        echo $(whoami)
         echo QQq | sudo -S /usr/bin/strace -ttt -p $ssh_pid -o "$today_audit_dir/$md5_str.log"
         break
     fi;
 done;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

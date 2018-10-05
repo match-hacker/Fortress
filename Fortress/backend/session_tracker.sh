@@ -24,7 +24,7 @@ for i in $(seq 1 30);do
         fi;
 	echo $(pwd)
 	echo $(whoami)
-        echo QQq | sudo -S /usr/bin/strace -ttt -p $ssh_pid -o "$md5_str.log"
+        echo QQq | sudo -S /usr/bin/strace -ttt -p $ssh_pid -o "$today_audit_dir/$md5_str.log"
         break
     fi;
 done;

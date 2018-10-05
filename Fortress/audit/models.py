@@ -148,3 +148,15 @@ class BindHost(models.Model):
 
     class Meta:
         unique_together = ('host', 'host_user')
+
+
+class SessionLog(models.Model):
+    """存储session日志"""
+    user = models.ForeignKey("UserProfile", on_delete=models.CASCADE)
+    bind_host = models.ForeignKey("BindHost", on_delete=models.CASCADE)
+    session_tag = models.CharField(max_length=128, unique=True)
+    date = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.session_tag
+
